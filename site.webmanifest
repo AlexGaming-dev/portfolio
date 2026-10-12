@@ -1,0 +1,19 @@
+{
+  "name": "Alexander Dennhoven – alexgamingdev",
+  "short_name": "alexgamingdev",
+  "description": "Portfolio von Alexander Dennhoven, Softwareentwickler und Content Creator.",
+  "lang": "de-DE",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#111612",
+  "theme_color": "#111612",
+  "icons": [
+    {
+      "src": "https://alexgamingdev.github.io/icons/favicon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
