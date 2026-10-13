@@ -472,8 +472,10 @@
     document.querySelectorAll(".profile-link").forEach((card, index) => {
       const [description, label, translatedName] = copy.items[index];
       if (translatedName) card.querySelector("strong").textContent = translatedName;
-      card.querySelector("span:nth-of-type(1)").textContent = description;
-      card.querySelector("span:nth-of-type(2)").textContent = `${label} ↗`;
+      const descriptionElement = card.querySelector(".profile-description");
+      const urlElement = card.querySelector(".profile-url");
+      if (descriptionElement) descriptionElement.textContent = description;
+      if (urlElement) urlElement.textContent = label;
     });
   }
 
